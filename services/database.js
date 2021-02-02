@@ -1,11 +1,11 @@
 const oracledb = require('oracledb');
-try {
-  oracledb.initOracleClient({libDir: '/Users/vjrjunior/Downloads/instantclient_19_8'});
-} catch (err) {
-  console.error('Whoops!');
-  console.error(err);
-  process.exit(1);
-}
+// try {
+//   oracledb.initOracleClient({libDir: '/Users/vjrjunior/Downloads/instantclient_19_8'});
+// } catch (err) {
+//   console.error('Whoops!');
+//   console.error(err);
+//   process.exit(1);
+// }
 const dbConfig = require('../config/database.js');
 
 async function initialize() {
